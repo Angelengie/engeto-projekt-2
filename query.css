@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  header {
+    position: relative;
+  }
+
+  header nav {
+    position: absolute;
+    top: 70px;
+    background-color: var(--primary-color);
+    width: 100%;
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 23px;
+  }
+
+  header nav li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
